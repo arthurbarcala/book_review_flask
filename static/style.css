@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', 'sans-serif';
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(61, 61, 92);
+    color: rgb(235, 231, 240);
+}
+button, .submit{
+    background-color: rgb(235, 231, 240);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+form{
+    padding: 15px;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

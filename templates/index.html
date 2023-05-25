@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+</head>
+
+<body>
+    <h1>Book Review Website</h1>
+    <hr>
+    <h2>Olá! Oq vc quer?</h2>
+    <p>
+        E buonasera signore e signori
+Fuori gli attori
+Vi conviene toccarvi i coglioni
+Vi conviene stare zitti e buoni
+Qui la gente è strana, tipo spacciatori
+Troppe notti stavo chiuso fuori
+Mo li prendo a calci 'sti portoni
+Sguardo in alto tipo scalatori
+Quindi scusa mamma se sto sempre fuori ma
+    </p>
+    <a href="{{ url_for('cadastro') }}"><button >Cadastrar</button></a>
+    <a href="{{ url_for('login') }}"><button >Login</button></a>
+</body>
+
+</html>
